@@ -1,0 +1,26 @@
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.container--section {
+  padding: 0 3%;
+}
+
+.benefits__section {
+  position: relative;
+  background: url("./img/page2.png") left center no-repeat, url("./img/malina.png") left bottom 10px no-repeat;
+}

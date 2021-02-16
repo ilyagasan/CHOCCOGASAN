@@ -1,0 +1,30 @@
+.benefits {
+  display: flex;
+  width: 96%;
+}
+
+.benefits__item {
+  flex: 1;
+  position: relative;
+  padding: 0 3%;
+}
+.benefits__item:first-child {
+  padding-left: 0;
+}
+.benefits__item:before {
+  content: url("./img/pounds.png");
+  position: absolute;
+  top: 55px;
+  right: 0;
+  transform: translate(50%);
+}
+.benefits__item:last-child {
+  padding-right: 0;
+}
+.benefits__item:last-child:before {
+  content: none;
+}
+
+.benefits__title {
+  font-weight: bold;
+}

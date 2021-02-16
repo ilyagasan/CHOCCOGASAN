@@ -1,0 +1,35 @@
+.hero__title-section {
+  width: 46%;
+}
+
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.hero__description-title {
+  font-size: 21px;
+  margin-bottom: 53px;
+  padding-right: 10%;
+}
+
+.btn {
+  padding-left: 41px;
+  padding-top: 21px;
+  padding-right: 41px;
+  padding-bottom: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1000000px;
+}
+.btn--theme--green {
+  background-color: white;
+  color: #365a49;
+}
+.btn--theme--green:hover {
+  color: white;
+  background-color: #365a49;
+}

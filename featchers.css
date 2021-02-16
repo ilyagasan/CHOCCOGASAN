@@ -1,0 +1,13 @@
+.hero__list-icons {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero__items-icons {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 46px;
+}
+.hero__items-icons:last-child {
+  margin-right: 0;
+}

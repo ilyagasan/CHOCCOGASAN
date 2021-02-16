@@ -1,0 +1,57 @@
+.reviews__display {
+  padding: 50px 45px 34px;
+  margin-right: 7%;
+  margin-left: 7%;
+  position: relative;
+  background: url("./img/vetka.jpg") right top no-repeat, #f8faf9;
+  overflow: hidden;
+}
+.reviews__display:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%);
+  top: -65px;
+}
+
+.reviews_display-inner {
+  display: flex;
+}
+
+.reveiews__avatar {
+  widows: 254px;
+  height: 260px;
+}
+
+.reveiews__avatar-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.reviews__content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.reviews__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 22px;
+  color: black;
+}
+
+.reviews__text {
+  margin-bottom: 36px;
+}
+
+.reveiews__avatar {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}

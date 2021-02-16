@@ -1,0 +1,82 @@
+@import "./main-dist.css";
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,700;1,100&display=swap");
+@import "./hero.css";
+@import "./header.css";
+@import "./featchers.css";
+@import "./feature.css";
+@import "./title.css";
+@import "./section.css";
+@import "./headline.css";
+@import "./benefits.css";
+@import "./benefit.css";
+@import "./reviews.css";
+@import "./intaractive__avatar.css";
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Alegreya sans", Arial, helvetica, sans-serif;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: containerWidth;
+  margin: 0 auto;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}

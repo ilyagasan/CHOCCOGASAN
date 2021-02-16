@@ -1,0 +1,21 @@
+$blue:rgba(97, 196, 217, 1);
+.hero{
+    
+    background: url("./img/batonchik.png") left 78% center no-repeat, url("./img/decoratelist.png") right bottom no-repeat;
+    background-color: $blue;
+    height: 100vh;
+    //width: 100%;
+    min-height: 650px;
+    color: white;
+
+}
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 65%;
+    padding-top: 5%;
+    padding-bottom:5% ;
+    padding-left: 7%;
+    padding-right: 8%;
+}
